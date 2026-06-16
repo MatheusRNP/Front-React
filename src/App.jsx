@@ -33,23 +33,23 @@ function App() {
     <>
       <nav>
         <span className="navItem" onClick={() => navTo('s1')}>
-            <img src="./home.png" alt="Home" />
+            <img src="/home.png" alt="Home" />
             <p className="navWords">Home</p>
         </span>
         <span className="navItem" onClick={() => navTo('s2')}>
-            <img src="./banner.png" alt="banner" />
+            <img src="/banner.png" alt="banner" />
             <p className="navWords">Banner</p>
         </span>
         <span className="navItem" onClick={() => navTo('s3')}>
-            <img src="./Cards.png" alt="Products" />
+            <img src="/Cards.png" alt="Products" />
             <p className="navWords">Cards</p>
         </span>
         <span className="navItem" onClick={() => navTo('s4')}>
-            <img src="./youtube.png" alt="Video" />
+            <img src="/youtube.png" alt="Video" />
             <p className="navWords">Video</p>
         </span>
         <span className="navItem" onClick={() => navTo('s5')}>
-            <img src="./telephone-symbol-button.png" alt="Contato" />
+            <img src="/telephone-symbol-button.png" alt="Contato" />
             <p className="navWords">Contato</p>
         </span>
       </nav>
